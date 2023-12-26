@@ -1,0 +1,408 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+}
+.nav-item{
+    padding: 0px 20px 0px 20px;
+  
+}
+.carousel-display{
+    height: 600px;
+}
+#hero_containt{
+    position: absolute;
+    margin-top: -450px;
+}
+.heading{
+    font-size: 4rem;
+    font-family: helvetica,arial,sans-serif;
+    /* width: 128px; */
+    font-weight: 900;
+    /* padding-left: 40rem; */
+    letter-spacing: -1.92px;
+    line-height: 1;
+    color: #fff;
+}
+.paragraph{
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.third_containt{
+    padding-top: 20px; 
+}
+.third_containt button{
+    border-radius: 40px;
+    padding: 15px;
+    background-color: #0f3cc9;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;    
+}
+.dark{
+    background-color: rgb(50, 47, 47);
+}
+.paragraph2{
+    /* float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center; */
+    overflow: hidden;
+}
+.blog {
+    background: url(hotel/hall-interior-design-1024x602.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 60px 0 30px 0;
+    margin-top: 60px;
+}
+
+.blog .titlepage {
+    text-align: center;
+}
+
+.blog .titlepage h2 {
+    color: #fff;
+}
+
+.blog .titlepage p {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.blog .blog_box {
+    text-align: left;
+    background-color: #fff;
+    margin-bottom: 30px;
+    transition: ease-in all 0.5s;
+}
+
+.blog .blog_box .blog_img {
+    overflow: hidden;
+}
+
+.blog .blog_box .blog_img figure {
+    margin: 0;
+}
+
+.blog .blog_box .blog_img figure img {
+    width: 100%;
+    transition: all .5s;
+}
+
+.blog .blog_box .blog_img figure img:hover {
+    transform: scale(1.2);
+}
+
+.blog .blog_box .blog_room {
+    padding: 33px 30px;
+    text-align: left;
+}
+
+.blog .blog_box .blog_room h3 {
+    color: #121212;
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    transition: ease-in all 0.5s;
+    margin: auto;
+}
+
+.blog .blog_box .blog_room span {
+    font-size: 15px;
+    color: #ff0909;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.blog .blog_box .blog_room p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.contact {
+    background: #fff;
+    margin-top: 90px;
+}
+
+.main_form .contactus {
+    border: #fff solid 1px;
+    padding: 0 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 58px;
+    background: #fff;
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    box-shadow: 2px 0px 6px rgba(255, 9, 9, 0.20);
+}
+.main_form .textarea {
+    border: #fff solid 1px;
+    margin-bottom: 25px;
+    width: 100%;
+    background: #fff;
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 12px 15px 0 15px;
+    box-shadow: 2px 0px 6px rgba(255, 9, 9, 0.20);
+    height: 150px;
+}
+
+.main_form .send_btn {
+    font-size: 22px;
+    transition: ease-in all 0.5s;
+    background-color: #000000;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 0px;
+    max-width: 193px;
+    width: 100%;
+    display: block;
+    margin-top: 10px !important;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.main_form .send_btn:hover {
+    background-color: #ff0909;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+#request *::placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
+.map figure {
+    margin: 0;
+}
+
+.map figure img {
+    width: 100%;
+}
+.footer {
+     background: #0f1521;
+     margin-top: 90px;
+     padding-top: 60px;
+     text-align: center;
+}
+
+.footer h3 {
+     font-weight: 600;
+     font-size: 25px;
+     line-height: 24px;
+     text-align: left;
+     color: #fff;
+     margin-bottom: 15px;
+     border-bottom: #ff0909 solid 3px;
+     padding-bottom: 3px;
+     display: table;
+}
+
+ul.conta li {
+     color: #fff;
+     text-align: left;
+     padding-bottom: 20px;
+     font-size: 16px;
+}
+
+ul.conta li i {
+     padding-right: 15px;
+     text-align: center;
+     font-size: 20px;
+}
+
+ul.conta li a {
+     color: #fff;
+}
+
+ul.link_menu li {
+     display: block;
+     text-align: left;
+}
+
+ul.link_menu li.active a {
+     color: #ff0909;
+}
+
+ul.link_menu li a {
+     color: #fff;
+     font-size: 17px;
+     line-height: 28px;
+     display: block;
+     width: -moz-max-content;
+}
+
+ul.link_menu li a:hover {
+     color: #ff0909;
+}
+
+.bottom_form {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 32px;
+}
+
+.bottom_form h3 {
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 25px;
+     text-align: left;
+     color: #fff;
+     padding-top: 12px;
+     margin-right: 93px;
+     text-transform: uppercase;
+     border: inherit;
+}
+
+.bottom_form .enter {
+     border: inherit;
+     padding: 0px 19px;
+     width: 100%;
+     height: 45px;
+     background: #fffffff2;
+     color: #ccc8c8;
+     font-size: 17px;
+     font-weight: 300;
+     float: left;
+     margin-bottom: 20px;
+}
+
+.sub_btn {
+     font-size: 17px;
+     transition: ease-in all 0.5s;
+     background-color: #fff;
+     color: #ff0909;
+     padding: 8px 0px;
+     max-width: 147px;
+     width: 100%;
+     font-weight: 500;
+     text-transform: uppercase;
+     height: 47px;
+}
+
+.sub_btn:hover {
+     background-color: #ff0909;
+     transition: ease-in all 0.5s;
+     color: #fff;
+}
+
+ul.social_icon {
+     padding-top: 24px;
+     width: 100%;
+     float: left;
+     text-align: left;
+}
+
+ul.social_icon li {
+     display: inline-block;
+}
+
+ul.social_icon li a {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 27px;
+     border-radius: 30px;
+     margin: 0 9px;
+     color: #fff;
+}
+
+ul.social_icon li a:hover {
+     color: #ff0909;
+}
+
+.copyright {
+     margin-top: 60px;
+     padding-bottom: 20px;
+     background-color: #fff;
+     border: #ff0909 solid 3px;
+     border-right: inherit;
+     border-left: inherit;
+}
+
+.copyright p {
+     color: #000;
+     font-size: 18px;
+     line-height: 22px;
+     text-align: center;
+     border-top: #a3aec6 solid 1px;
+     padding-top: 25px;
+     font-weight: normal;
+}
+
+.copyright a {
+     color: #000;
+}
+
+.copyright a:hover {
+     color: #ff0909;
+}
+
+
+/** end footer **/
+
+
+/**  inner page css **/
+.back_re {
+     background-color: #0f1521;
+}
+.back_re .title {
+     text-align: center;
+}
+.back_re .title h2 {
+color:#fff;
+font-size: 40px;
+padding: 40px 0;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 35px;
+}
+.margin_0 {
+     margin:0 !important;
+}
+
+
+.inner_page .gallery {
+     padding-top: 90px;
+}
+.inner_page .blog {
+     margin-top: 90px;
+}
+.gallery {
+    padding-top: 60px;
+}
+
+.gallery .titlepage {
+    text-align: center;
+}
+
+.gallery .gallery_img {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.gallery .gallery_img figure {
+    margin: 0;
+}
+
+.gallery .gallery_img figure img {
+    width: 100%;
+    transition: all .5s;
+}
+
+.gallery .gallery_img figure img:hover {
+    transform: scale(1.2);
+}
